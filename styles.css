@@ -1,0 +1,306 @@
+/* red: #DB5B5A */
+/* pink: #F8999A */
+
+@font-face {
+  font-family: graphik;
+  src: url("fonts/GraphikRegular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: bigcaslon;
+  src: url("fonts/BigCaslon.ttf") format("truetype");
+}
+
+.top-nav-container a {
+  text-decoration: none;
+}
+
+/* page a */
+#page-a {
+  background-color: #db5b5a;
+  color: white;
+  font-family: "graphik";
+  font-size: 1.2em;
+  height: 100vh;
+}
+
+#page-a .top-nav-container a {
+  color: white;
+}
+#page-a .top-nav-container a:visited {
+  color: white;
+}
+#page-a .top-nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#page-a .logo {
+  margin: 40px;
+  align-self: center;
+}
+
+#page-a .menu {
+  margin: 40px;
+}
+
+#page-a .top-nav-container li {
+  display: inline;
+  margin-right: 30px;
+}
+
+#page-a .heading {
+  margin-top: 200px;
+  font-family: "bigcaslon";
+  font-size: 2.2em;
+}
+
+#page-a .subheading {
+  margin-top: 100px;
+  font-size: 1.2em;
+}
+
+/* page b */
+#page-b .left {
+  margin: 30px;
+}
+
+#page-b .banner-container {
+  display: flex;
+  justify-content: center;
+}
+
+#page-b .right {
+  margin-top: 150px;
+  margin-left: 20px;
+  font-family: "graphik";
+}
+
+#page-b .right .lead {
+  font-size: 1.5em;
+}
+
+/* page c */
+.page-c .image {
+  margin-left: 30%;
+}
+
+/* page d */
+.page-d .image {
+  margin-left: 10%;
+}
+
+/* page e */
+
+#page-e .about-container {
+  display: flex;
+}
+
+#page-e .writeup {
+  font-family: "graphik";
+  font-size: 1.2em;
+  margin: 20px;
+}
+
+#page-e .writeup .heading {
+  font-family: "graphik";
+  font-size: 1.4em;
+  margin-top: 60px;
+}
+#page-e .image {
+  align-self: center;
+}
+
+#page-e .red-dot {
+  height: 25px;
+  width: 25px;
+  background-color: #db5b5a;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 50px;
+}
+
+/* page f */
+
+#page-f {
+  font-family: "graphik";
+  background-color: #f5f5f5;
+  padding: 30px;
+}
+
+#page-f h1 {
+  margin: 10px;
+}
+
+#page-f .faq-container .left {
+  display: flex;
+}
+
+#page-f .left {
+  flex-grow: 2;
+}
+
+#page-f .right {
+  flex-grow: 1;
+}
+
+#page-f .faq-container {
+  display: flex;
+  padding: 10px;
+}
+
+#page-f .faq-box {
+  background-color: #313131;
+  color: #f5f5f5;
+  padding: 40px;
+  font-size: 1.2em;
+  margin: 20px;
+}
+
+#page-f .faq-box .heading {
+  font-size: 1.4em;
+}
+
+/* page g */
+
+#page-g {
+  font-family: "graphik";
+  background-color: #db5b5a;
+  color: white;
+  padding: 50px;
+}
+
+#page-g .pre-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* page h */
+
+#page-h {
+  font-family: "bigcaslon";
+  background-image: linear-gradient(to right, #db5b5a, black);
+  color: white;
+  padding: 30px;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+/* page i */
+#page-i {
+  font-family: "graphik";
+  font-size: 1.2em;
+  height: 100vh;
+}
+
+#page-i .top-nav-container a {
+  color: black;
+}
+#page-i .top-nav-container a:visited {
+  color: black;
+}
+
+#page-i .banner {
+  margin-left: -40px;
+}
+
+#page-i .top-nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#page-i .logo {
+  margin: 40px;
+  align-self: center;
+  color: #db5b5a;
+}
+
+#page-i .menu {
+  margin: 40px;
+}
+
+#page-i .top-nav-container li {
+  display: inline;
+  margin-right: 30px;
+}
+
+#page-i .showcase-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#page-i .showcase {
+  margin: 30px;
+}
+
+#page-i .showcase h1 {
+  margin-top: 200px;
+}
+
+/* page j */
+#page-j {
+  font-family: "graphik";
+  font-size: 1.2em;
+  height: 100vh;
+}
+
+#page-j .top-nav-container a {
+  color: black;
+}
+#page-j .top-nav-container a:visited {
+  color: black;
+}
+
+#page-j .banner {
+  margin-left: -60px;
+}
+
+#page-j .top-nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#page-j .logo {
+  margin: 40px;
+  align-self: center;
+  color: #db5b5a;
+}
+
+#page-j .menu {
+  margin: 40px;
+}
+
+#page-j .top-nav-container li {
+  display: inline;
+  margin-right: 30px;
+}
+
+#page-j .text-banner {
+  margin: 100px;
+}
+
+#page-j .text-banner h1 {
+  font-size: 2.2em;
+}
+
+/* util */
+.center {
+  text-align: center;
+}
+
+.cl-red {
+  color: #db5b5a;
+}
+
+.cl-pink {
+  color: #f8999a;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
