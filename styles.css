@@ -146,13 +146,9 @@ body {
   padding: 10px;
 }
 
-/* #page-f .left {
-  flex: 2 1 0;
+#page-f .faq-box p {
+  font-size: 1em;
 }
-
-#page-f .right {
-  flex: 1 1 0;
-} */
 
 #page-f .contact {
   padding: 30px;
@@ -315,6 +311,29 @@ body {
 
 #page-j .text-banner h1 {
   font-size: 2.2em;
+}
+
+/* page k */
+
+#page-k {
+  font-family: "graphik";
+  background-color: black;
+  color: white;
+  padding: 50px;
+}
+
+#page-k .post-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#page-k li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+#page-k .right {
+  margin-right: 80px;
 }
 
 /* util */
